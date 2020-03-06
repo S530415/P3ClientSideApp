@@ -13,7 +13,7 @@ window.addEventListener('load', (event) => {
 const tip = function (numcost, percent)
 {
     console.log(numcost, percent)
-    if(cost < 0 || wage < 0){
+    if(numcost < 0 || wage < 0){
     return 0;
     }
     else{
