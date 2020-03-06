@@ -1,0 +1,52 @@
+body {
+    background-color: beige;
+    padding-top: 10 rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2{
+      color: darkslategrey;
+      text-align: center;
+  }
+
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  nav{
+    background-color: darkslategrey;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .table{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: left;
+  }
+
+  .topper{
+    color:blue;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  #container{
+    font-family: verdana;
+    font-size: 20px;
+    padding: 10px, 10px, 10px, 10px;
+    
+  }
+
+  #bar{
+    color:darkgrey;
+    padding: 10px, 10px, 10px, 10px;
+  }
+
+  .circle{
+    border-radius: 50%;
+  }
