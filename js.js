@@ -13,7 +13,7 @@ window.addEventListener('load', (event) => {
 const tip = function (numcost, percent)
 {
     console.log(numcost, percent)
-    if(cost<0 || wage <0){
+    if(cost < 0 || wage < 0){
     return 0;
     }
     else{
@@ -30,12 +30,12 @@ btnCombine.onclick = function(){
     const name = inputName.value;
     const act = inputAct.value;
     mergeHold.innerHTML = name + " you love to "+ act;
-    localStorage.setItem('name',name)
+    localStorage.setItem('name', name)
     const tiptotal = tip(numcost, numpercent)
     if (tiptotal == 0){
         payHold.innerHTML = name + " recheck your inputs please.";
     }
-    else{
+    else {
         theTip.innerHTML = name + " your tip should be "+ tiptotal;
     }
 }
