@@ -9,6 +9,7 @@ const theTip = document.getElementById("tip")
 const newsURL ='https://newsapiraygorodskijv1.p.rapidapi.com/getArticles'
 window.addEventListener('load', (event) => {
     document.querySelector("#fname").innerHTML = localStorage.getItem('name'); 
+    document.querySelector("#tip").innerHTML = localStorage.getItem('tip'); 
 })
 const tip = function (numcost, percent)
 {
