@@ -19,7 +19,6 @@ const tip = function (numcost, percent)
     else{
     return (numcost * percent);
     }
-    
 }
 
 btnCombine.onclick = function(){
