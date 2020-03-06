@@ -1,6 +1,6 @@
 const inputName = document.querySelector("#fname")
 const inputAct = document.querySelector("#act")
-const inputHours = document.querySelector("#cost")
+const inputCost = document.querySelector("#cost")
 const inputPercent = document.querySelector("#percent")
 const btnCombine = document.getElementById("combine")
 const mergeHold = document.getElementById("merg")
@@ -23,7 +23,7 @@ const tip = function (numcost, percent)
 }
 
 btnCombine.onclick = function(){
-    const strcost = inputcost.value;
+    const strcost = inputCost.value;
     const numcost = parseFloat(strcost);
     const strpercent = inputPercent.value;
     const numpercent = parseFloat(strpercent);
